@@ -73,7 +73,7 @@ In the future, I would have liked to figure out what were the other metrics for 
 
 Overall I thought the assignment was very simple, almost too simple. I wish there was more that could be done, or that we focused on building a pipeline properly and tested it across multiple datasets for a specific theme. But in the end, I now know how to create machine learning models, how to scale data, how to create a train test split for machine learning models, and how to calculate the accuracy scores for machine learning models. 
 
-## HOWTO RUN
+## HOW-TO RUN
 
 To run the notebook, simply clone the repository and then run the **spam_detector.ipynb** file to calculate all the required analysis. Comments and notes have been made inside the notebook for clarity. 
 
