@@ -32,7 +32,9 @@ From the data provided, I created a train-test split on the data from SKLearn. S
 Afterwards, I created the Logistic Regression Model using a Random State of 1 to make future runs of the notebook more consistent. Below is a table of the Training and Testing Data accuracies of the model using **accuracy_score()** from SKLearn:
 
 **---------------------------------------------------------**
+
 **--TABLE 1: Accuracy Scores of Logistic Regression Model--**
+
 **---------------------------------------------------------**
 
 | Data Type | Model Accuracy | Model Accuracy (%) |
@@ -47,7 +49,9 @@ From the above, we can see that the Logistic Regression Model was accurate about
 Next, I created the Random Forest Classifier Model to fit the same data. Initially I had decided to use the *n_estimators* parameter of the model to try and see if having cutoffs for the roots would prevent overfitting and accuracy. When looking at the shape of the training data, I tried to make sure that my number of estimators was less than 10% of the data, and after seeing 3450 rows, I decided to use 300 estimators. I also created a Random Forest Classifier model without any estimators. Both were made with a random state of 1 to ensure reproducibility. After running the model accuracy scores on both versions, I found that since the training accuracy was the same, I decided to proceed forward with the random forest classifier model that did not specify estimators. As a result, the table below shows the accuracy scores for random forest classifiers model based on the training and testing data, using **accuracy_score()** from SKLearn:
 
 **--------------------------------------------------------------**
+
 **--TABLE 2: Accuracy Scores of Random Forest Classifier Model--**
+
 **--------------------------------------------------------------**
 
 | Data Type | Model Accuracy | Model Accuracy (%) |
@@ -58,7 +62,9 @@ Next, I created the Random Forest Classifier Model to fit the same data. Initial
 ### Comparing the Two Models
 
 **------------------------------------------------------------**
+
 **--TABLE 3: Accuracy Scores of Both Machine Learning Models--**
+
 **------------------------------------------------------------**
 
 | Model | Model Accuracy | Model Accuracy (%) |
